@@ -1,0 +1,34 @@
+header {
+  font-size: 100px;
+  color: red;
+  text-align: center;
+}
+.main123 {
+  width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.aleko {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid red;
+  border-radius: 15px;
+}
+
+#thoughts {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#link {
+  display: flex;
+  justify-content: center;
+}
