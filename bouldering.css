@@ -1,0 +1,75 @@
+.headerWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+nav a {
+  font-size: xx-large;
+  color: black;
+  margin-top: 40px;
+  text-underline-offset: 10px;
+}
+#heading {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.pics {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+#pic1 {
+  width: 100px;
+  height: 150px;
+}
+#pic2 {
+  width: 200px;
+  height: 150px;
+}
+#pic3 {
+  width: 225px;
+  height: 150px;
+}
+#text {
+  margin-top: 70px;
+  font-size: 25px;
+  border: solid;
+  border-radius: 15px;
+  text-align: justify;
+  padding: 25px;
+  font-family: sans-serif;
+}
+
+footer {
+  margin-top: 25px;
+  background-color: black;
+}
+
+input {
+  border: none;
+  padding: 20px;
+}
+
+#info1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
