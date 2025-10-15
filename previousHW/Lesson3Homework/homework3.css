@@ -1,0 +1,52 @@
+header {
+  font-size: 100px;
+  color: red;
+  text-align: center;
+}
+.main123 {
+  width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.aleko {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid red;
+  border-radius: 15px;
+  width: 400px;
+  height: 250px;
+}
+
+#thoughts {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#link {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  /* display: flex;
+  justify-content: center; */
+  border: solid rebeccapurple;
+  font-size: larger;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+td,
+tr {
+  border: solid;
+  padding: 5px;
+}
