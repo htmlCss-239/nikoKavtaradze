@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+body {
+  background-color: #202020;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+#rgc {
+  position: relative;
+  width: 100%;
+  top: -80px;
+  margin-bottom: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.285);
+  backdrop-filter: blur(20px);
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.logoWrap {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 96px;
+}
+
+.logoWrap p {
+  color: #dedede;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-right: 109px;
+}
+nav a {
+  text-decoration: none;
+  color: #dedede;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.covibe {
+  margin-left: 96px;
+  margin-top: 128px;
+}
+
+.covibe p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #dedede;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: #959595;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 96px;
+  margin-top: 112px;
+  margin-right: 300px;
+}
+
+.info-item p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: #dedede;
+  margin-top: 12px;
+}
+.info-item h3 {
+  margin-bottom: 0;
+}
+
+.problem {
+  margin-left: 96px;
+  margin-top: 290px;
+  margin-bottom: 0;
+}
+
+.problem p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #dedede;
+  margin-bottom: 0;
+}
+
+.proto {
+  margin-left: 96px;
+  margin-top: 88px;
+  margin-bottom: 0;
+}
+.proto h3 {
+  margin-bottom: 0;
+}
+.proto img {
+  margin-top: 10px;
+}
+
+#proImg {
+  margin-top: 100px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.sol1 {
+  display: flex;
+
+  margin-left: 96px;
+  margin-right: 96px;
+  margin-top: 234px;
+  margin-bottom: 0;
+}
+
+.sol1 p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #dedede;
+  margin-bottom: 0;
+}
+.solTxt1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 130px;
+}
+
+.sol2 {
+  display: flex;
+
+  margin-left: 96px;
+  margin-right: 96px;
+  margin-top: 275px;
+  margin-bottom: 0;
+}
+
+.sol2 p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #dedede;
+  margin-bottom: 0;
+}
+.solTxt2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 130px;
+}
+
+.solCont1 {
+  display: flex;
+  justify-content: center;
+}
+
+.solCont2 {
+  display: flex;
+  justify-content: center;
+}
+.concl {
+  margin-left: 96px;
+  margin-top: 216px;
+}
+
+.concl p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #dedede;
+  margin-bottom: 0;
+}
+
+.socials {
+  margin-right: 96px;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+.socials img {
+  margin-left: 43px;
+}
+
+.socPic {
+  display: flex;
+  justify-content: center;
+  margin-left: 96px;
+  margin-right: 96px;
+  margin-top: 128px;
+}
+.nxtCase {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 244px;
+}
+#case {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #dedede;
+  margin-bottom: 0;
+}
+
+#underline {
+  margin-top: 12px;
+}
+
+.brdr {
+  width: 100%;
+  height: 1px;
+  background-color: #696969;
+  margin-top: 153px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.5px;
+  color: #959595;
+  margin-left: 96px;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+footer span {
+  color: #fff;
+}
