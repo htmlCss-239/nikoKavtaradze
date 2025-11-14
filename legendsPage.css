@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  --man-utd-red: #a43129;
+  --dark-bg: #242424;
+  --medium-dark: #363636;
+  --light-dark: #424141;
+  --text-light: #f4f4f4;
+  --text-secondary: #aaa;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--light-dark);
+}
+
+.mainHeader {
+  margin: 0%;
+  width: 100%;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+  position: sticky;
+  top: 0;
+  background-color: var(--dark-bg);
+  z-index: 20;
+}
+
+.bigLink {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  text-decoration: none;
+}
+
+.clubLogo {
+  width: 70px;
+}
+
+.siteTitle {
+  text-decoration: none;
+  color: var(--man-utd-red);
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.signIn {
+  background-color: var(--man-utd-red);
+  border: solid var(--man-utd-red) 2px;
+  border-radius: 30px;
+  color: var(--text-light);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.signIn:hover {
+  background-color: #892923;
+  border: solid #892923 2px;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  background-color: var(--medium-dark);
+  padding: 10px 80px;
+  padding-bottom: 0;
+  gap: 30px;
+}
+
+.navigation > a,
+.dropdown {
+  text-decoration: none;
+  color: var(--text-light);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+
+  padding: 15px 0px;
+  border-bottom: 5px solid var(--medium-dark);
+
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.dropdown .dropbtn {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.navigation > a:hover,
+.dropdown:hover {
+  color: var(--man-utd-red);
+  border-bottom: 5px solid var(--man-utd-red);
+  cursor: pointer;
+}
+
+.navigation a.active {
+  border-bottom: 3px solid var(--man-utd-red);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--medium-dark);
+  min-width: 160px;
+  z-index: 10;
+
+  top: 109%;
+  left: 0;
+  padding: 0;
+}
+
+.dropdown-content a {
+  color: var(--text-light);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+  border-bottom: none !important;
+  padding: 10px 5px;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--man-utd-red);
+  color: var(--text-light);
+  border-bottom: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: var(--man-utd-red);
+}
+
+.navigation > a,
+.dropdown1 {
+  text-decoration: none;
+  color: var(--text-light);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+
+  padding: 15px 0px;
+  border-bottom: 5px solid var(--medium-dark);
+
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.dropdown1 .dropbtn1 {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.navigation > a:hover,
+.dropdown1:hover {
+  color: var(--man-utd-red);
+  border-bottom: 5px solid var(--man-utd-red);
+  cursor: pointer;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: var(--medium-dark);
+  min-width: 160px;
+  z-index: 10;
+
+  top: 109%;
+  left: 0;
+  padding: 0;
+}
+
+.dropdown-content1 a {
+  color: var(--text-light);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+  border-bottom: none !important;
+  padding: 10px 5px;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content1 a:hover {
+  background-color: var(--man-utd-red);
+  color: var(--text-light);
+  border-bottom: none;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown1:hover .dropbtn1 {
+  color: var(--man-utd-red);
+}
+
+.mainSectionHeader {
+  padding: 40px 80px;
+}
+
+.sectionHeader {
+  color: var(--text-light);
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.lineDiv {
+  height: 3px;
+  background-color: var(--man-utd-red);
+}
+
+.playerSectionLEG {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px 80px;
+}
+
+.PlayerCard {
+  width: 300px;
+  height: 370px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: background-size 0.8s, transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  background-size: 130%;
+  background-repeat: no-repeat;
+}
+
+.PlayerCard:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  background-size: 140%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.PlayerCard h2 {
+  color: var(--text-light);
+  margin: 0;
+
+  padding: 20px 20px;
+}
+
+.playerNum {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.playerNum p {
+  color: var(--text-light);
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.numLine {
+  height: 3px;
+  background-color: var(--man-utd-red);
+  width: 40px;
+  margin: 0;
+}
+
+#giggs {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 60%
+    ),
+    url(./img/players/Legends-Profile_Ryan-Giggs1523461920015.jpg);
+}
+#charlton {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 60%
+    ),
+    url(./img/players/Legends-Profile_Sir-Bobby-Charlton1523461176559.jpg);
+}
+#scholes {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 60%
+    ),
+    url(./img/players/Legends-Profile_Paul-Scholes1523463090320.jpg);
+}
+#foulkes {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 60%
+    ),
+    url(./img/players/Legends-Profile_Bill-Foulkes1523460299078.jpg);
+}
+#neville {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 60%
+    ),
+    url(./img/players/Legends-Profile_Gary-Neville1523521397690.jpg);
+}
+#rooney {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 60%
+    ),
+    url(./img/players/Legends-Profile_Wayne-Rooney1523460268000.jpg);
+}
+
+footer {
+  margin: 0%;
+  width: 100%;
+  background-color: var(--medium-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+footer p {
+  color: var(--text-light);
+  font-size: 14px;
+}
+.socials {
+  padding: 20px 80px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.socials a {
+  background-color: var(--light-dark);
+  border-radius: 50px;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.socials a img {
+  height: 20px;
+  max-width: 24px;
+}
+
+.socials a:hover {
+  background-color: var(--man-utd-red);
+}
