@@ -8,7 +8,6 @@
   --text-secondary: #aaa;
   --hover-red: #bc141a;
 }
-
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -132,7 +131,7 @@ body {
   display: block;
   text-align: left;
 
-  border-bottom: none;
+  border-bottom: none !important;
   padding: 10px 5px;
   transition: background-color 0.3s;
 }
@@ -204,7 +203,7 @@ body {
   display: block;
   text-align: left;
 
-  border-bottom: none;
+  border-bottom: none !important;
   padding: 10px 5px;
   transition: background-color 0.3s;
 }
@@ -223,91 +222,59 @@ body {
   color: var(--man-utd-red);
 }
 
-.mainSectionHeader {
-  padding: 40px 80px;
-}
-
-.sectionHeader {
-  color: var(--text-light);
-  padding-bottom: 0px;
-  margin-bottom: 10px;
-}
-
-.lineDiv {
-  height: 3px;
-  background-color: var(--man-utd-red);
-}
-
-.wrapFixtures {
-  padding: 0px 80px;
+.articleHeader {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 30px;
+  align-items: end;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 60%
+    ),
+    url(./img/GettyImages-8119611911505988336353_xlarge.jpg);
+  border-radius: 0px;
+  background-size: 100%;
+  transition: background-size 0.8s;
 }
 
-.MuLogo,
-.OppLogo {
-  height: 60px;
-
-  padding: 0;
+.headerWrap {
+  padding: 0px 0px;
 }
 
-.MU {
+.imgHeader {
+  color: var(--text-light);
   font-weight: 700;
+  font-size: 60px;
+  padding: 0 80px;
 }
 
-.teamName {
+.articleHeader:hover {
+  background-size: 110%;
+}
+article {
+  padding: 0px 400px;
+}
+.articleWrap {
+  padding: 30px 30px;
+}
+
+.articleWrap h3,
+.articleWrap p {
   color: var(--text-light);
+}
+
+.articleWrap h3 {
+  font-size: 30px;
+}
+
+.articleWrap p {
   font-size: 20px;
 }
 
-.fixtureTime {
-  color: var(--text-light);
-  background-color: var(--man-utd-red);
-  padding: 10px 15px;
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 20px;
-  letter-spacing: 1.5px;
-}
-
-.fixture {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  background-color: var(--light-dark);
-  margin: 0;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  padding: 5px 25px;
-}
-
-.fixtureCard {
-  display: flex;
-  justify-content: center;
-
-  flex-direction: column;
-  border-radius: 5px;
-  min-width: 750px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.fixtureDate {
-  background-color: var(--dark-bg);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  color: var(--text-light);
-  padding: 10px 5px;
-  text-align: center;
-  margin: 0;
-}
-
-.fixtureCard:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+.artIMG {
+  width: 100%;
 }
 
 footer {

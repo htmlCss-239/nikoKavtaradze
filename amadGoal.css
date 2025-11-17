@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 :root {
-  --man-utd-red: #a43129;
+  --man-utd-red: #d2171d;
   --dark-bg: #242424;
   --medium-dark: #363636;
   --light-dark: #424141;
   --text-light: #f4f4f4;
   --text-secondary: #aaa;
+  --hover-red: #bc141a;
 }
 
 body {
@@ -60,8 +61,8 @@ body {
 }
 
 .signIn:hover {
-  background-color: #892923;
-  border: solid #892923 2px;
+  background-color: var(--hover-red);
+  border: solid var(--hover-red) 2px;
   cursor: pointer;
 }
 
@@ -297,13 +298,9 @@ footer p {
       rgba(0, 0, 0, 0) 60%
     ),
     url(./img/nottingham-forest-v-manchester-united-premier-league-4-scaled.jpg);
-  border-radius: 10px;
+
   background-size: 130%;
   transition: background-size 0.8s;
-}
-
-.headerWrap {
-  padding: 10px 80px;
 }
 
 .imgHeader {
@@ -331,6 +328,7 @@ article {
   border-radius: 32px;
 }
 .by {
+  padding-top: 10px;
   display: flex;
   gap: 10px;
   align-items: center;

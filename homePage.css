@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 :root {
-  --man-utd-red: #a43129;
+  --man-utd-red: #d2171d;
   --dark-bg: #242424;
   --medium-dark: #363636;
   --light-dark: #424141;
   --text-light: #f4f4f4;
   --text-secondary: #aaa;
+  --hover-red: #bc141a;
 }
 
 body {
@@ -60,8 +61,8 @@ body {
 }
 
 .signIn:hover {
-  background-color: #892923;
-  border: solid #892923 2px;
+  background-color: var(--hover-red);
+  border: solid var(--hover-red) 2px;
   cursor: pointer;
 }
 
@@ -302,7 +303,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #892923;
+  background-color: var(--hover-red);
 }
 
 .carousel-nav-arrows button {
@@ -621,12 +622,12 @@ body {
   color: var(--text-light);
   font-weight: 600;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
 }
 
 #vwmr:hover {
   cursor: pointer;
-  background-color: #892923;
+  background-color: var(--hover-red);
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
